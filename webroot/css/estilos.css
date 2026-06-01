@@ -375,7 +375,10 @@ body .tarjetaDoble{
 /* --- GRID --- */
 .rejilla-tarjetas {
     display: grid;
-    grid-template-columns: repeat(5, minmax(230px, 1fr));
+    position:relative;
+    left:-24%;
+    grid-template-columns: repeat(5, minmax(330px, 1fr));
+    grid-template-rows: repeat(2,325px);
     gap: 1.5rem;
 }
 /* --- TARJETAS INTERACTIVAS --- */
